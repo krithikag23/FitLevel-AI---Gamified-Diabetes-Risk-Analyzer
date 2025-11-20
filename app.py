@@ -9,6 +9,7 @@ st.caption("Explore your health risk in a gamified way — NOT medical advice")
 slider_values = {}
 cols = st.columns(3)
 
+
 with cols[0]:
     slider_values["age"] = st.slider("Age index", 0, 100, 40)
     slider_values["bmi"] = st.slider("Fitness (BMI)", 0, 100, 50)
