@@ -80,7 +80,6 @@ def get_gamified_level(score):
     else:
         return {"title": "Boss Level Alert 🚨", "color": "red", "message": "High risk! Please consider medical guidance."}
 
-
 def get_lifestyle_quests(slider_values):
     quests = []
     age, bmi, bp = slider_values.get("age",50), slider_values.get("bmi",50), slider_values.get("bp",50)
